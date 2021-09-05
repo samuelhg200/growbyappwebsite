@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/questionnaireStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!--<script src="jquery-3.5.1.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+  <title>Get Quote</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="opacity: 1;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../HTML/index.html">GrowByApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../HTML/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../HTML/questionnaire.html">Get quoute</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../HTML/services.html">Services</a>
+                </li>
+                <!--
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">App  Design</a></li>
+                            <li><a class="dropdown-item" href="#">App Development</a></li>
+                            <li><a class="dropdown-item" href="#">App Support</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                        </ul>
+                    </li>
+                -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">About us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Enter your budget" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Calculate</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</br>
+<div class="container">
+<h1 class="animated fadeInDown"><i class="icon icon-arrow-down"></i></h1>
+<h1 class="animated rotateIn">LET US KNOW WHAT TYPE OF APP YOU NEED</h1>
+</br>
+</br>
+
+<p><strong> 1.	Will you sell goods/services in your app?</strong></p>
+<div class="select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder" style="color: white;">Choose...</span>
+    <label class="option">
+        <input type="radio" name="option">
+        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - I will be</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option">
+        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>No - I will not</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option">
+        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+    </label>
+</div>
+<br>
+<br>
+<br>
+
+<p><strong> 2. Will you need a login system for your users?</strong></p>
+<div class="select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option2">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder" style="color: white;">Choose...</span>
+    <label class="option">
+        <input type="radio" name="option2">
+        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - I will need it</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option2">
+        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>No - I will not</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option2">
+        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+    </label>
+</div>
+<br>
+<br>
+<br>
+
+<p><strong> 3. Will you need your app to support multiple languages?</strong></p>
+<div class="select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option3">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder" style="color: white;">Choose...</span>
+    <label class="option">
+        <input type="radio" name="option3">
+        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - Bilingual (2)</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option3">
+        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>Yes - Polylingual (2+)</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option3">
+        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No - One language</strong></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option3">
+      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+  </label>
+</div>
+<br>
+<br>
+<br>
+<!--
+<details>
+  <summary><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+      <line x1="12" y1="17" x2="12.01" y2="17" /></svg></summary>
+  <small class="form-group-help">
+    The name that will be displayed in your public profile.
+  </small>
+</details>-->
+<p><strong> 4.	Will you need an administration mode?</strong></p>
+
+<div class="select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option4">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder" style="color: white;">Choose...</span>
+    <label class="option">
+        <input type="radio" name="option4">
+        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option4">
+        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No</strong></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option4">
+      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+  </label>
+</div>
+<br>
+<br>
+<br>
+
+<p><strong> 5.	Will you need a chatting service?</strong></p>
+
+<div class="select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option5">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder" style="color: white;">Choose...</span>
+    <label class="option">
+        <input type="radio" name="option5">
+        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - Between users</strong></span>
+    </label>
+    <label class="option">
+        <input type="radio" name="option5">
+        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>Yes - Client & Seller</strong></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option5">
+      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No - Not needed</strong></span>
+  </label>
+    <label class="option">
+      <input type="radio" name="option5">
+      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+  </label>
+</div>
+<br>
+<br>
+<br>
+
+
+
+
+<p style="margin-bottom: 2px;"><strong>6.	How many daily clients do you currently have?</strong></p>
+<p style="margin: 0px; font-size: 0.75em;">*(Type a number - 0 if not established yet)*</p>
+<br>
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="DailyClients" name="dailyClients" id='dailyClients' required />
+  <label for="dailyClients" class="form__label">Daily clients</label>
+</div>
+<br>
+<br>
+<br>
+
+<!--CALCULATE WITH JAVASCRIPT AND SEND THROUGH URL OR POST TO NEW PAGE-->
+<hr>
+<div class="box">
+  <a href="../HTML/questionnaire.html" class="btn btn-white btn-animation-1" style="font-size: 1.5em;">Get Quote</a> 
+</div>
+
+
+<!--<p><img src="http://aoyue.com.tw/images/logo.svg" width="25" height="25">powered by Aoyue Design</p>-->
+</div>
+</body>
+</html>
