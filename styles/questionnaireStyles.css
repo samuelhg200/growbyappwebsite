@@ -310,6 +310,7 @@ p img {
   }
   .form__field::placeholder {
     color: transparent;
+    white-space: nowrap;
   }
   .form__field:placeholder-shown ~ .form__label {
     font-size: 1rem;
