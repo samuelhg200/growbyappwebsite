@@ -298,7 +298,8 @@ p img {
   
   .form__field {
     font-family: inherit;
-    width: 100%;
+    
+    width: 330px;
     border: 0;
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
@@ -324,7 +325,7 @@ p img {
     top: 0;
     display: block;
     transition: 0.2s;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #9b9b9b;
   }
   
