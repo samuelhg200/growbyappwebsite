@@ -57,8 +57,9 @@ body {
 
 @media screen and (max-width: 767px) {   
     .title {
-      font-size: 19px;
+      font-size: 20px;
       width: 92%;
+      padding-top: 25px;
     }
     .btn:link,
   .btn:visited{
@@ -75,10 +76,19 @@ body {
 }
 }
 
+@media only screen and (min-width: 767px) and (max-width: 1029px) {
+	.text-reveal{
+    display: none;
+  }
+    
+}
+
+
 @media screen and (min-width: 768px) {   
   .title {
-    font-size: 34px;
-    width: 65%;
+    font-size: 32px;
+    width: 60%;
+    padding-top: 20px;
   }
   .btn:link,
   .btn:visited{
@@ -115,6 +125,9 @@ body {
 }
 .socialMediaToggled{
   padding-top: 280px;
+}
+.text-reveal{
+  display: none;
 }
 }
 
@@ -257,7 +270,7 @@ Button
 .box{
   white-space: nowrap;
   position:absolute;
-  top:50%;
+  top:55%;
   left:50%;
   transform : translate(-50% ,-50%);
 }
@@ -279,7 +292,7 @@ Button
   .box{
     
     position:absolute;
-    top:54%;
+    top:55%;
     left:50%;
     transform : translate(-50% ,-50%);
   }
