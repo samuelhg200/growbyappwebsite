@@ -75,15 +75,15 @@
     <span class="placeholder" style="color: white;">Choose...</span>
     <label class="option">
         <input type="radio" name="option">
-        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - I will be</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-basket-loaded"></i><strong>Yes - I will be</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option">
-        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>No - I will not</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-ban"></i><strong>No - I will not</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option">
-        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-question"></i><strong>I'm not sure yet</strong></span>
     </label>
 </div>
 <br>
@@ -99,15 +99,15 @@
     <span class="placeholder" style="color: white;">Choose...</span>
     <label class="option">
         <input type="radio" name="option2">
-        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - I will need it</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-login"></i><strong>Yes - I will need it</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option2">
-        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>No - I will not</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-ban"></i><strong>No - I will not</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option2">
-        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-question"></i><strong>I'm not sure yet</strong></span>
     </label>
 </div>
 <br>
@@ -123,19 +123,19 @@
     <span class="placeholder" style="color: white;">Choose...</span>
     <label class="option">
         <input type="radio" name="option3">
-        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - Bilingual (2)</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-globe-alt"></i><strong>Yes - Polylingual (2+)</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option3">
-        <span class="title animated fadeIn"><i class="icon icon-handbag"></i><strong>Yes - Polylingual (2+)</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-globe"></i><strong>Yes - Bilingual (2)</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option3">
-        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No - One language</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-ban"></i><strong>No - One language</strong></span>
     </label>
     <label class="option">
       <input type="radio" name="option3">
-      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+      <span class="title animated fadeIn"><i class="icon icon-question"></i><strong>I'm not sure yet</strong></span>
   </label>
 </div>
 <br>
@@ -161,15 +161,15 @@
     <span class="placeholder" style="color: white;">Choose...</span>
     <label class="option">
         <input type="radio" name="option4">
-        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-note"></i><strong>Yes - I will need it</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option4">
-        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-ban"></i><strong>No - I will not</strong></span>
     </label>
     <label class="option">
       <input type="radio" name="option4">
-      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+      <span class="title animated fadeIn"><i class="icon icon-question"></i><strong>I'm not sure yet</strong></span>
   </label>
 </div>
 <br>
@@ -186,19 +186,19 @@
     <span class="placeholder" style="color: white;">Choose...</span>
     <label class="option">
         <input type="radio" name="option5">
-        <span class="title animated fadeIn"><i class="icon icon-speedometer"></i><strong>Yes - Between users</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-bubbles"></i><strong>Yes - Between users</strong></span>
     </label>
     <label class="option">
         <input type="radio" name="option5">
-        <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>Yes - Client & Seller</strong></span>
+        <span class="title animated fadeIn"><i class="icon icon-speech"></i><strong>Yes - Client & Seller</strong></span>
     </label>
     <label class="option">
       <input type="radio" name="option5">
-      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>No - Not needed</strong></span>
+      <span class="title animated fadeIn"><i class="icon icon-ban"></i><strong>No - Not needed</strong></span>
   </label>
     <label class="option">
       <input type="radio" name="option5">
-      <span class="title animated fadeIn"><i class="icon icon-badge"></i><strong>I'm not sure yet</strong></span>
+      <span class="title animated fadeIn"><i class="icon icon-question"></i><strong>I'm not sure yet</strong></span>
   </label>
 </div>
 <br>
@@ -208,16 +208,42 @@
 
 
 
-<p style="margin-bottom: 2px;" class="animated fadeInDown"><strong>6.	How many daily clients do you currently have?</strong></p>
-<p style="margin: 0px; font-size: 0.75em;">*(Type a number - 0 if not established yet)*</p>
+<p style="margin-bottom: 2px;" class="animated fadeInDown"><strong>6.	How many monthly clients do you currently have?</strong></p>
+<!--Ask - do you know how many clients you currently have? on select yes  display input field clients-->
+
+<div class="checkboxContainer">
+    <form class="form">
+        <div class="inputGroup">
+          <input id="checkbox" name="checkbox" type="checkbox" onclick="hideInputField();"/>
+          <label for="checkbox" style="font-size: 12px;">I would prefer not to disclose this information.</label>
+        </div>
+
+</div> 
+
+<div id='inputFieldClients'>
+<p style="margin: 0px; font-size: 0.75em;">(Enter a number - 0 if not yet established)</p>
 <br>
 <div class="form__group field">
   <input type="input" class="form__field" placeholder="DailyClients" name="dailyClients" id='dailyClients' required />
   <label for="dailyClients" class="form__label">Daily clients</label>
 </div>
+</div>
 <br>
 <br>
 <br>
+
+<script>
+    
+function hideInputField()
+{
+  if (document.getElementById('checkbox').checked) 
+  {           
+    $('#inputFieldClients').toggle();
+  } else {
+    $('#inputFieldClients').toggle();
+  }
+}
+</script>
 
 <!--CALCULATE WITH JAVASCRIPT AND SEND THROUGH URL OR POST TO NEW PAGE-->
 <hr>
